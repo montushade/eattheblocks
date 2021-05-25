@@ -1,6 +1,6 @@
 pragma solidity >=0.6.2;
 
-import './IUniswapV2Router01.sol';
+import "https://github.com/montushade/eattheblocks/blob/master/screencast/310-flashloan-bsc/contracts/interfaces/IUniswapV2Router01.sol";
 
 interface IUniswapV2Router02 is IUniswapV2Router01 {
     function removeLiquidityETHSupportingFeeOnTransferTokens(
